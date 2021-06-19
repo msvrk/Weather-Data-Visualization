@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Karthik Mandapaka" />
+        <title>Rains in Australia</title>
+        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+ 
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- SweetAlert JS-->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        {{ headContent() }}
+           
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Start Here</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#distribution">Rainfall Distribution</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#seasonal">Seasonal Effects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#factors">Factors influencing rainfall</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Rains in Australia</h1>
+                <p class="lead">Let's explore rainfall in Australia from 2007 to 2017</p>
+                <a class="btn btn-lg btn-light" href="#info">Start exploring!</a>
+            </div>
+        </header>
+        <!-- Info section-->
+        <section id = "info" style="background-color: aliceblue;">
+          <h2 style="text-align: center;">Rainfall in Numbers</h2>
+          <div class="row row-cols-1 row-cols-md-3">
+
+              <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                  <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                      <!-- <div class="card-header">Header</div> -->
+                      <div class="card-body">
+                        <h4 class="card-title">2.351 MM</h4>
+                        <p class="card-text"style="font-size: 18px;">Average Daily Rainfall</p>
+                      </div>
+                    
+                  </div>
+              </div>
+              <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                      <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                          <!-- <div class="card-header">Header</div> -->
+                          <div class="card-body">
+                            <h4 class="card-title">371 MM</h4>
+                            <p class="card-text"style="font-size: 18px;">Highest Rainfall in a day observed on 7th November 2009 in Coffs Harbour</p>
+                          </div>
+                        
+                      </div>
+                
+              </div>
+              <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                  
+                      <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                          <!-- <div class="card-header">Header</div> -->
+                          <div class="card-body">
+                            <h4 class="card-title">67,640,282 MM</h4>
+                            <p class="card-text"style="font-size: 18px;">Total maximum rainfall observed in a state was in Queensland in 2010</p>
+                          </div>
+                        
+                      </div>
+                  
+              </div>
+              <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                  
+                      <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                          <!-- <div class="card-header">Header</div> -->
+                          <div class="card-body">
+                            <h4 class="card-title">45369 MM</h4>
+                            <p class="card-text"style="font-size: 18px;">Maximum Total rainfall in a Year was observed in 2010</p>
+                          </div>
+                        
+                      </div>
+                  
+              </div>
+              <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                    
+                        <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                            <!-- <div class="card-header">Header</div> -->
+                            <div class="card-body">
+                              <h4 class="card-title">37457.38 MM</h4>
+                              <p class="card-text"  style="font-size: 18px;">Overall maximum monthly rainfall is observed in March over the decade</p>
+                            </div>
+                        
+                        </div>
+                    
+                </div>
+                <div class="col mb-4" style="padding-inline-start: 1.75in; padding-top: 1in;">
+                    
+                        <div class="card text-white bg-info mb-3 h-100" style="max-width: 18rem;">
+                            <!-- <div class="card-header">Header</div> -->
+                            <div class="card-body">
+                              <h4 class="card-title">765,177,108 MM</h4>
+                              <p class="card-text"style="font-size: 18px;">Overall maximum rainfall is observed in Summers over the decade</p>
+                            </div>
+                        
+                        </div>
+                   
+                </div>
+                
+            </div>
+          
+        </section>
+        
+        <!-- Distribution section-->
+        <section id="distribution">
+          <div class="container px-1">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <h2 style="font-size: 45px;">Rainfall Distribution</h2>
+                        <p class="lead" style="font-size: 22px;">Australia is home to some of the driest regions in the world, while also being subject to periods of heavy rainfall and cyclones.</p>
+                        <p class="lead" style="font-size: 22px;" >From one extreme to another, parts of the far North Queensland coast annually average over 4,000 mm (157 in).
+                            The average annual rainfall in the Australian desert is low, ranging from 81 to 250 mm (3 to 10 in).
+                            Rainfall records tend to be concentrated along the east coast of Australia, particularly in tropical north Queensland.
+                            Australia has a compact shape, and no significant bodies of water penetrate very far inland. This is important in as much as moist winds are prevented from penetrating inland, so keeping rainfall low</p>
+                        {{ slider_style = chooseSliderSkin("Round") }}
+                        {{ tags$head(tags$style(type='text/css', ".slider-animate-button { font-size: 20pt !important; padding-top: 3in; text-decoration: none; text-shadow: 2px 2px 5px black; font-weight: bold;color: #2c3fe4;}")) }}
+                        {{ carousel1 }}
+                        
+                    </div>
+                </div>
+          </div>
+        </section>
+    
+        <!-- Seasons section-->
+        <section id="seasonal" style="background-color: #c8ebff;">
+            <div class="container px-1">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <h2 style="font-size: 45px;">Seasonal Effects</h2>
+                        <p class="lead"  style="font-size: 22px;">Annually, Summers receive the maximum rainfall while Winters receive the least amount</p>
+                        <p class="lead"  style="font-size: 22px;">The southern parts of Australia get the usual westerly winds and rain-bearing cold fronts that come when high–pressure systems move towards northern Australia during winter.
+                             Cold snaps may bring frosts inland, though temperatures near the coast are mild or near mild all year round. 
+                             Summers in southern Australia are generally dry and hot with coastal sea breezes.
+                             The tropical areas of northern Australia have a wet summer because of the monsoon. 
+                             During "the wet", typically October to April, humid north-westerly winds bring showers and thunderstorms. 
+                             Occasionally, tropical cyclones can bring heavy rainfall to tropical coastal regions, which is also likely to reach further inland. 
+                             After the monsoonal season, the dry season comes ("winter"), which brings mostly clear skies and milder conditions.</p>
+                        {{ slider_style = chooseSliderSkin("Round") }}
+                        {{ tags$head(tags$style(type='text/css', ".slider-animate-button { font-size: 20pt !important; padding-top: 3in; text-decoration: none; text-shadow: 2px 2px 5px black; font-weight: bold;color: #2c3fe4;}")) }}
+                        {{ carousel2 }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Factors section-->
+        <section id="factors" >
+            <div class="container px-1">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <h2 style="font-size: 45px;">Rainfall factors</h2>
+                        <p class="lead" style="font-size: 22px;">Sunshine, Humidity and Cloud cover are the major factors influencing rainfall</p>
+                        {{ slider_style = chooseSliderSkin("Round") }}
+                        {{ tags$head(tags$style(type='text/css', ".slider-animate-button { font-size: 20pt !important; padding-top: 3in; text-decoration: none; text-shadow: 2px 2px 5px black; font-weight: bold;color: #2c3fe4;}")) }}
+                        {{ carousel3 }}
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Summary section-->
+        <section id = "summary" class="bg-primary">
+            <h2 class= "text-white" style="text-align: center; font-size: 45px;">Summary</h2>
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center" style="padding-top: 1in;">
+  
+                <div class="card border-dark mb-3" style="max-width: 40rem;">
+                    
+                    <div class="card-body text-dark">
+                      <h5 class="card-title" style="font-weight: bold; font-size: 30px;">Rainfall Distribution</h5>
+                      <p class="card-text" style="font-size: 20px;">Overall, rainfall is concentrated along the east coast of Australia and Tasmania, while inland area comprising of deserts is an indication of very little rainfall inland. Occasionally, tropical cyclones can bring heavy rainfall to tropical coastal regions, which is also likely to reach further inland.</p>
+                    </div>
+                </div>
+             
+                  
+                  
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+  
+                <div class="card border-dark mb-3" style="max-width: 40rem;">
+                    
+                    <div class="card-body text-dark">
+                      <h5 class="card-title"style="font-weight: bold; font-size: 30px;">Seasonal Effects</h5>
+                      <p class="card-text"style="font-size: 20px;">Overall, Summers receive the maximum rainfall due to the humid north-westerly winds in the months of November to March while Winters receive the least due to low Humidity</p>
+                    </div>
+                </div>
+                  
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+  
+                <div class="card border-dark mb-3" style="max-width: 40rem;">
+                    
+                    <div class="card-body text-dark">
+                      <h5 class="card-title"style="font-weight: bold; font-size: 30px;">Factors influencing rainfall</h5>
+                      <p class="card-text"style="font-size: 20px;">Overall, Sunshine, Cloud Cover and Humidity influence rainfall the most but sudden erratic wind disturbances cause cyclones causing rainfall reaching inland regions of Australia as well.</p>
+                    </div>
+                </div>
+                  
+                  
+             </div>
+            
+          </section>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4">
+                <p class="m-0 text-white" style="font-weight: bold;">Data Sources</p>
+                <a class="m-0 text-center text-white" href="https://www.kaggle.com/jsphyg/weather-dataset-rattle-package/download">Tabular Data</a>
+                <a class="m-0 text-center text-white" href="https://s3-ap-southeast-2.amazonaws.com/silo-open-data/annual/index.html">Spatial Data</a></div>
+        </footer>
+
+    </body>
+    <script>
+        swal("Welcome!","Please maximize the browser window for a better experience");
+    </script>
+       
+</html>
